@@ -1,10 +1,14 @@
-
 body {
   font-family: "Montserrat";
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat-Bold";
 }
 
@@ -28,7 +32,7 @@ p {
 
 /* Containers */
 
-.container-fluid{
+.container-fluid {
   padding: 7% 8%;
 }
 
@@ -49,14 +53,19 @@ p {
   flex-direction: row-reverse;
   justify-content: flex-start;
 }
-a{
+.social-icon{
+  visibility: hidden;
+}
+a {
   text-decoration: none;
   color: black;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
   color: white;
 }
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -66,7 +75,10 @@ a:hover{
   font-size: 2.5rem;
   font-weight: bold;
 }
-
+.nav-icons{
+  visibility: hidden;
+  position: absolute;
+}
 .nav-item {
   padding: 0 18px;
 }
@@ -88,19 +100,24 @@ a:hover{
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
-.social-icon:hover, .nav-item img:hover{
+
+.social-icon:hover,
+.nav-item img:hover {
   transform: rotate(25deg);
 }
-.search-box{
+
+.search-box {
   border: 1px solid currentColor;
   border-radius: 5px;
   padding: 2px;
   display: flex;
 }
-.search-input::placeholder{
+
+.search-input::placeholder {
   color: white;
 }
-.search-input{
+
+.search-input {
   width: 100%;
   border: none;
   background: transparent;
@@ -111,7 +128,8 @@ a:hover{
   border: 1px solid transparent;
   border-radius: inherit;
 }
-.search-img{
+
+.search-img {
   overflow: hidden;
   width: 40px;
   padding: 0;
@@ -121,13 +139,13 @@ a:hover{
   background: transparent;
   cursor: pointer;
 }
+
 /* Title Image */
 
 .title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
+  position: static;
+  transform: rotate(0);
+  width: 50%;
 }
 
 /* Features Section */
@@ -160,19 +178,31 @@ a:hover{
   color: #63432c;
   z-index: 1;
   position: relative;
-  height: 500px;
+  height: fit-content;
 }
-.products-gird{
-  padding: 12%;
-  display: flex;
+
+.products-gird {
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  padding: 15%;
+  display: grid;
   justify-content: space-around;
+
 }
-.carousal-btn{
+
+.new-books-text {
+  position: relative;
+  top: 50px;
+}
+
+.carousal-btn {
   width: 40px;
 }
-.product-img{
+
+.product-img {
   width: 100px;
 }
+
 /* Pricing Section */
 
 #pricing {
@@ -198,14 +228,27 @@ a:hover{
   margin: 20px 10px;
 }
 
-@media (max-width: 1028px) {
-
-  #title {
-    text-align: center;
+@media (min-width: 1028px) {
+  .products-gird {
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10%;
+    display: grid;
+    justify-content: space-around;
   }
-
+  .nav-text{
+    position: absolute;
+    visibility:hidden ;
+  }
+  .social-icon{
+    visibility: visible;
+  }
+  .nav-icons{
+    visibility: visible;
+  }
   .title-image {
-    position: static;
-    transform: rotate(0);
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
   }
 }
