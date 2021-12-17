@@ -1,131 +1,267 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>TinDog</title>
 
-    <link rel="shortcut icon" href="public/images/favicon-32x32.png" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
-    <!-- Import styles from mycss and bootstrap -->
-    <link rel="stylesheet" href="public/styles/styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <title>The Bookstore</title>
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
 </head>
 
 <body>
-    <header class="bg-secondary">
-        <div class="socials bg-secondary"> 
-            <a class="login-signin mr-3" href="#">Login</a>
-            <a class="login-signin mr-3" href="#">Signin</a>
-            <a class="social-icon mr-3" href="#"><img src="public/images/facebook.png" alt=""></a>
-            <a class="social-icon mr-3" href="#"><img src="public/images/twitter.png" alt=""></a>
-            <a class="social-icon mr-3" href="#"><img src="public/images/instagram.png" alt=""></a>   
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+
+      <div class="socials">
+        <a class="login-signin mt-3 col-md-auto" href="#">Login</a>
+        <a class="login-signin mt-3" href="#">Signin</a>
+        <a class="social-icon mr-3" href="#"><img src="public/images/facebook.png" alt=""></a>
+        <a class="social-icon mr-3" href="#"><img src="public/images/twitter.png" alt=""></a>
+        <a class="social-icon mr-3" href="#"><img src="public/images/instagram.png" alt=""></a>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href="">The Bookstore</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""">Categories</a>
+            </li>
+            <li> <a class=" nav-item nav-link mr-2" href="#"><img src="public/images/user.png" alt=""></a></li>
+            <li><a class="nav-item nav-link mr-2" href="#"><img src="public/images/shopping-cart.png" alt=""></a></li>
+            <li><a class="nav-item nav-link" href="#"><img src="public/images/wishlist.png" alt=""></a></li>
+          </ul>
+
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-secondary py-1 active">
-            <h3 class="">The Bookstore</h3>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link mr-2" href="#">Contact <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link mr-2" href="#">Categories</a>
-                    <a class="nav-item nav-link mr-2" href="#"><img src="public/images/user.png" alt=""></a>
-                    <a class="nav-item nav-link mr-2" href="#"><img src="public/images/shopping-cart.png" alt=""></a>
-                    <a class="nav-item nav-link" href="#"><img src="public/images/wishlist.png" alt=""></a>
-                </div>
-            </div>
-        </nav>
-      </header>
-        <main>
-            <ul class="book-shlef">
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book10.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book02.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book03.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book04.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book05.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book06.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book07.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book08.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book09.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book01.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book11.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book13.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book12.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book14.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book15.jpg" alt=""></li>
-                <li><img class="book-img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book16.jpg" alt=""></li>
-                <!-- <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book17.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book18.jpg" alt=""></li> -->
-                <!-- <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book19.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book20.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book21.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book22.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book23.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book24.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book25.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book26.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book27.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book28.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book29.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book30.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book31.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book32.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book33.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book34.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book10.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book02.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book03.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book04.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book05.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book06.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book07.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book08.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book09.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book01.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book11.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book13.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book12.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book14.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book15.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book16.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book17.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book18.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book19.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book20.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book21.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book22.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book23.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book24.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book25.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book26.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book27.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book28.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book29.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book30.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book31.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book32.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book33.jpg" alt=""></li>
-                <li><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/book34.jpg" alt=""></li> -->
-              </ul>
-        </main>
+      </nav>
 
 
-    <!-- Import Jquery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+      <!-- Main -->
+
+      <div class="main row">
+        <div class="col-lg-6">
+          <form class="search-box" action="get">
+            <input class="search-input" type="search" placeholder="Search">
+            <button class="search-img" type="submit"><img src="public/images/search.png" alt=""></button>
+          </form>
+          <h1 class="big-heading">Find Your Favourite Book</h1>
+        </div>
+
+        <div class="col-lg-6">
+          <img class="title-image" src="images/main-book.jpg" alt="iphone-mockup">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+  <!-- <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- new-books -->
+
+  <div id="carouselExampleControls" class="carousel slide new-books" data-ride="carousel">
+    <div class="carousel-inner">
+      <h2 class="new-books-text">Check New Books.</h2>
+      <div class="carousel-item active">
+        <div class="products-gird">
+          <div class="product-card">
+            <img class="product-img" src="images/booksImages/1.jpg" alt="">
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/booksImages/1.jpg" alt="">
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/booksImages/1.jpg" alt="">
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/booksImages/1.jpg" alt="">
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/booksImages/1.jpg" alt="">
+          </div>
+          <div class="product-card">
+            <img class="product-img" src="images/booksImages/1.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control" aria-hidden="true"></span>
+      <img class="carousal-btn" src="images/previous-icon.png" alt="">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control" aria-hidden="true"></span>
+      <img class="carousal-btn" src="images/next-icon.png" alt="">
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Press -->
+
+  <section class="colored-section" id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">Free</h2>
+            <p>5 Matches Per Day</p>
+            <p>10 Messages Per Day</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-outline-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$49 / mo</h2>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="price-text">$99 / mo</h2>
+            <p>Pirority Listing</p>
+            <p>Unlimited Matches</p>
+            <p>Unlimited Messages</p>
+            <p>Unlimited App Usage</p>
+            <button class="btn btn-lg btn-block btn-dark" type="button">Sign Up</button>
+
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i>
+        Download</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2018 TinDog</p>
+    </div>
+  </footer>
+
+
 </body>
 
 </html>
