@@ -36,9 +36,9 @@
       <div class="socials">
         <a class="login-signin" href="#">Login</a>
         <a class="login-signin mr-3" href="#">Signup</a>
-        <a class="social-icon mr-3" href="#"><img src="../public/images/facebook.png" alt=""></a>
-        <a class="social-icon mr-3" href="#"><img src="../public/images/twitter.png" alt=""></a>
-        <a class="social-icon mr-3" href="#"><img src="../public/images/instagram.png" alt=""></a>
+        <a class="social-icon mr-3" href="#"><img src="../../public/images/facebook.png" alt=""></a>
+        <a class="social-icon mr-3" href="#"><img src="../../public/images/twitter.png" alt=""></a>
+        <a class="social-icon mr-3" href="#"><img src="../../public/images/instagram.png" alt=""></a>
       </div>
       <nav class="navbar navbar-expand-lg navbar-dark">
 
@@ -58,15 +58,15 @@
               <a class="nav-link" href="">Categories</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-icons" href="#"><img class="" src="../public/images/user.png" alt=""></a>
+              <a class="nav-link nav-icons" href="#"><img class="" src="../../public/images/user.png" alt=""></a>
               <a class="nav-text nav-link ">Account</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-icons ml-2" href="#"><img class="" src="../public/images/shopping-cart.png"alt=""></a>
+              <a class="nav-link nav-icons ml-2" href="#"><img class="" src="../../public/images/shopping-cart.png"alt=""></a>
               <a class="nav-text nav-link">Cart</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-icons ml-3" href="#"><img class="" src="../public/images/wishlist.png" alt=""></a>
+              <a class="nav-link nav-icons ml-3" href="#"><img class="" src="../../public/images/wishlist.png" alt=""></a>
               <a class="nav-text nav-link ">Wishlist</a>
             </li>
           </ul>
