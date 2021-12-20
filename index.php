@@ -90,7 +90,7 @@
                 cart</button>
             </div>
             <div class="card product-card col-11">
-              <img class="card-img-top p-1 product-img" src="/public/images/booksImages" alt="">
+              <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
               <div class="card-body">
                 <a href="#" class="card-title">Guinness World Records 2022</a>
                 <p class="card-text">Price: 10$</p>
@@ -162,7 +162,7 @@
           cart</button>
       </div>
       <div class="card product-card col-11">
-        <img class="card-img-top p-1 product-img" src="/public/images/booksImages" alt="">
+        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
         <div class="card-body">
           <a href="#" class="card-title">Guinness World Records 2022</a>
           <p class="card-text">Price: 10$</p>
@@ -218,7 +218,7 @@
           cart</button>
       </div>
       <div class="card product-card col-11">
-        <img class="card-img-top p-1 product-img" src="/public/images/booksImages" alt="">
+        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
         <div class="card-body">
           <a href="#" class="card-title">Guinness World Records 2022</a>
           <p class="card-text">Price: 10$</p>
@@ -284,7 +284,7 @@
                 cart</button>
             </div>
             <div class="card product-card col-11">
-              <img class="card-img-top p-1 product-img" src="/public/images/booksImages" alt="">
+              <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
               <div class="card-body">
                 <a href="#" class="card-title">Guinness World Records 2022</a>
                 <p class="card-text">Price: 10$</p>
@@ -342,7 +342,7 @@
                 cart</button>
             </div>
             <div class="card product-card col-11">
-              <img class="card-img-top p-1 product-img" src="/public/images/booksImages" alt="">
+              <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
               <div class="card-body">
                 <a href="#" class="card-title">Guinness World Records 2022</a>
                 <p class="card-text">Price: 10$</p>
