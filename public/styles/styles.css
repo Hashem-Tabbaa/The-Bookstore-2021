@@ -1,40 +1,264 @@
-header {
-    padding: 0%;
+body {
+  font-family: "Montserrat";
+  text-align: center;
 }
 
-main {
-    background-color: purple;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
 }
 
-.search-container {
-    display: flex;
-    width: fit-content;
-    background-color: white;
-    margin: auto;
-    height: 100px;
+p {
+  color: #8f8f8f;
 }
+
+/* Headings */
+
+.big-heading {
+  margin-top: 50px;
+  font-family: "Montserrat-Black";
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 8%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #83a9c4;
+  color: #fff;
+}
+
+.white-section {
+  background-color:rgb(162, 162, 162);
+  color: black;
+}
+
+/* Navigation Bar */
 .socials {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.social-icon{
+  visibility: hidden;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
 
-.social-icon {
-    padding: 1% 0% 0%;
-    visibility: hidden;
+a:hover {
+  text-decoration: none;
+  color: white;
 }
 
-.login-signin {
-    color: black;
-    margin-top: 15px;
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-@media (min-width : 700px) {
-    .social-icon {
-        visibility: visible;
-    }
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-icons{
+  visibility: hidden;
+  position: absolute;
+}
+.nav-item {
+  padding: 0 18px;
+}
 
-    main {
-        height: fit-content;
-    }
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+
+#title {
+  background-color: #85929b;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.social-icon:hover,
+.nav-item img:hover {
+  transform: rotate(25deg);
+}
+
+.search-box {
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  padding: 2px;
+  display: flex;
+}
+
+.search-input::placeholder {
+  color: white;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+.search-img {
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Title Image */
+
+.title-image {
+  position: static;
+  transform: rotate(0);
+  width: 50%;
+  height: 250px;
+  background-color: transparent;
+}
+
+
+/* new-books Section */
+
+.new-books {
+  background-color: #f8f6f6;
+  z-index: 1;
+  position: relative;
+  height: fit-content;
+}
+
+.products-gird {
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto ;
+  padding: 15%;
+  display: grid;
+  gap: 20px;
+  font-size: 1.5em;
+}
+.new-books-text {
+  position: relative;
+  top: 50px;
+  color: #364048;
+}
+
+.carousal-btn {
+  width: 20px;
+}
+.card-body{
+  height: 50%;
+}
+.product-img {
+  height: 50%;
+}
+.product-card{
+  align-items: center;
+  background-color: #d0dae1;
+}
+.product-card:hover{
+  box-shadow: 0 4px 8px 0 #85929b;
+  transition: 0.5s;
+}
+.card-body a{
+  color:#364048;
+}
+.card-body a:hover{
+  color: blue;
+}
+.add-toCart-btn{
+  position:relative;
+  bottom: 5px;
+  width: fit-content;
+  font-size: 0.8em;
+  background-color: #85929b;
+  color: white;
+}
+.add-toCart-btn:hover{
+  background-color: blue;
+}
+/* Best Seller */
+.best-seller-text{
+  color:whitesmoke;
+  position: relative;
+  top: 50px;
+}
+
+
+/* Footer Section */
+.footer p{
+  color:whitesmoke;
+}
+
+
+
+@media (min-width: 1028px) {
+  .products-gird {
+    grid-template-columns: auto auto auto auto auto auto;
+    padding: 10%;
+    display: grid;
+    justify-content: space-between;
+    font-size: 1em;
+  }
+  .add-toCart-btn{
+    font-size: 0.7em;
+    width: fit-content;
+  }
+  .nav-text{
+    position: absolute;
+    visibility:hidden ;
+  }
+  .carousal-btn {
+    width: 40px;
+  }
+  .social-icon{
+    visibility: visible;
+  }
+  .nav-icons{
+    visibility: visible;
+  }
+  #title{
+    height: 620px;
+  }
+  .title-image {
+    width: 70%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+    height: 400px;
+  }
+  .big-heading{
+    font-size: 3.5em;
+  }
 }
