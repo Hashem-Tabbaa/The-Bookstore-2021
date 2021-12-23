@@ -15,7 +15,9 @@ h6 {
 p {
   color: #8f8f8f;
 }
-
+hr{
+  background-color: #8f8f8f;
+}
 /* Headings */
 
 .big-heading {
@@ -282,6 +284,7 @@ a:hover {
     position: absolute;
     right: 30%;
     height: 400px;
+    visibility: hidden;
   }
 
   .big-heading {
@@ -289,16 +292,12 @@ a:hover {
   }
 }
 
-/*                                           Login page                                                                       */
+/*                                           Login & Signup page                                                                       */
 .login {
   height: fit-content;
   background-color: whitesmoke;
-  display: flex;
 }
 
-.login-card {
-  border: solid black;
-}
 
 .form-floating {
   text-align: left;
@@ -307,6 +306,7 @@ a:hover {
 .form-signin {
   border: #8f8f8f solid;
   padding: 5%;
+  border-radius: 5%;
 }
 
 .create-account-text{
@@ -327,6 +327,87 @@ a:hover {
 .create-account-text:after {
   margin-left: 10px;
 }
-.create-account-btn{
+.signup-btn{
   color: white !important;
+  font-size: 0.8em;
+}
+.login-image{
+  visibility: hidden;
+}
+.first-last-name{
+  gap: 10px;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+.first-name,.last-name{
+  width: 70%;
+}
+@media (min-width : 1028px){
+  .title-image{
+    visibility: visible;
+  }
+  .first-last-name{
+    grid-template-columns: auto auto;
+  }
+  .signup-btn{
+    font-size: 1.2em;
+  }
+  .login-image{
+    visibility: visible;
+  }
+  .login{
+    display: flex;
+    height: fit-content;
+  }
+} 
+
+/*                                                      Product Page                                              */
+.productPage-grid{
+  display: grid;
+  grid-template-columns: auto;
+}
+.product-info{
+  text-align: left;
+}
+.add-toWishlist-btn-productPage{
+  color: white;
+  background-color: #de2454;
+  border-radius: 9999px;
+  padding: 2%;
+}
+.add-toWishlist-btn-productPage:hover{
+  background-color: #da476c;
+}
+.add-toCart-btn-productPage{
+  border-radius: 9999px;
+  padding: 2%;
+}
+@media (min-width : 1000px){
+  .productPage-grid{
+    grid-template-columns: auto auto ;
+  }
+}
+/*                                               Cart Page                                                           */
+.cartPage{
+  height: fit-content;
+}
+.rightCartPage,.leftCartPage{
+  height: fit-content;
+}
+.cart-product-card{
+  border: #aeadad solid 3px;
+  padding: 2%;
+  border-radius: 5%;
+  margin-top: 5%;
+  text-align: left;
+  margin-bottom: 20%;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: stretch;
+}
+.cart-product-img{
+  width: 50%;
+}
+.cart-product-img-container{
+  width: fit-content;
 }
