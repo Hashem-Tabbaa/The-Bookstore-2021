@@ -1,12 +1,12 @@
 <?php
-  include("./partials/header.php")
+  include("./header.php")
 ?>
 <h4 class="font-weight-bold text-left mt-3 ml-4">My Cart Items</h4>
 <div class="d-flex">
     <div class="cart-products col-8">
         <div class="cart-product-card p-4 m-2">
             <div>
-                <img class="cart-products-img" src="../public/images/booksImages/1.jpg" alt="">
+                <img class="cart-products-img" src="./images/booksImages/1.jpg" alt="">
             </div>
             <div class="cart-products-info">
                 <h4 class="font-weight-bold">Angela Davis</h4>
@@ -39,7 +39,7 @@
         </div>
         <div class="cart-product-card p-4 m-2">
             <div>
-                <img class="cart-products-img" src="../public/images/booksImages/2.jpg" alt="">
+                <img class="cart-products-img" src="./images/booksImages/2.jpg" alt="">
             </div>
             <div class="cart-products-info">
                 <h4 class="font-weight-bold">Atlas of The Heart</h4>
@@ -88,5 +88,5 @@
     </div>
 </div>
 <?php
-  include("./partials/footer.php")
+  include("./footer.php")
 ?>

@@ -1,9 +1,9 @@
 <?php
-  include("./partials/header.php")
+  include("./header.php")
 ?>
 <div class="productPage-grid">
     <div class="product-img-productPage p-5">
-        <img src="../public/images/booksImages/1.jpg" alt="">
+        <img src="./images/booksImages/1.jpg" alt="">
     </div>
     <div class="product-info p-5">
         <h3 class="font-weight-bold">Angela Davis</h3>
@@ -32,5 +32,5 @@
     </div>
 </div>
 <?php
-  include("./partials/footer.php")
+  include("./footer.php")
 ?>

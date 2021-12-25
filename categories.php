@@ -1,5 +1,5 @@
 <?php
-include("./partials/header.php")
+include("./header.php")
 ?>
 <div class="categories-container d-flex">
     <aside class="categories-checkbox sticky-top">
@@ -43,7 +43,7 @@ include("./partials/header.php")
             <h4 class="font-weight-bold text-left p-4">Historical</h4>
             <div class="products-gird">
                 <div class="card product-card col-9">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/1.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Angela Davis</a>
                         <p class="card-text">Price: 10$</p>
@@ -52,7 +52,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/3.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Guinness World Records 2022</a>
                         <p class="card-text">Price: 10$</p>
@@ -61,7 +61,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/2.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atlas of the Heart</a>
                         <p class="card-text">Price: 10$</p>
@@ -70,7 +70,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/4.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atomic Habits</a>
                         <p class="card-text">Price: 10$</p>
@@ -79,7 +79,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/5.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">It Ends With Us</a>
                         <p class="card-text">Price: 10$</p>
@@ -88,7 +88,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/6.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Katt Loves Dogg</a>
                         <p class="card-text">Price: 10$</p>
@@ -103,7 +103,7 @@ include("./partials/header.php")
             <h4 class="font-weight-bold text-left p-4">Scientific</h4>
             <div class="products-gird">
                 <div class="card product-card col-9">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/1.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Angela Davis</a>
                         <p class="card-text">Price: 10$</p>
@@ -112,7 +112,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/3.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Guinness World Records 2022</a>
                         <p class="card-text">Price: 10$</p>
@@ -121,7 +121,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/2.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atlas of the Heart</a>
                         <p class="card-text">Price: 10$</p>
@@ -130,7 +130,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/4.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atomic Habits</a>
                         <p class="card-text">Price: 10$</p>
@@ -139,7 +139,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/5.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">It Ends With Us</a>
                         <p class="card-text">Price: 10$</p>
@@ -148,7 +148,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/6.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Katt Loves Dogg</a>
                         <p class="card-text">Price: 10$</p>
@@ -163,7 +163,7 @@ include("./partials/header.php")
             <h4 class="font-weight-bold text-left p-4">Biography</h4>
             <div class="products-gird">
                 <div class="card product-card col-9">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/1.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Angela Davis</a>
                         <p class="card-text">Price: 10$</p>
@@ -172,7 +172,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/3.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Guinness World Records 2022</a>
                         <p class="card-text">Price: 10$</p>
@@ -181,7 +181,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/2.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atlas of the Heart</a>
                         <p class="card-text">Price: 10$</p>
@@ -190,7 +190,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/4.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atomic Habits</a>
                         <p class="card-text">Price: 10$</p>
@@ -199,7 +199,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/5.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">It Ends With Us</a>
                         <p class="card-text">Price: 10$</p>
@@ -208,7 +208,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/6.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Katt Loves Dogg</a>
                         <p class="card-text">Price: 10$</p>
@@ -223,7 +223,7 @@ include("./partials/header.php")
             <h4 class="font-weight-bold text-left p-4">For Children</h4>
             <div class="products-gird">
                 <div class="card product-card col-9">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/1.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Angela Davis</a>
                         <p class="card-text">Price: 10$</p>
@@ -232,7 +232,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/3.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Guinness World Records 2022</a>
                         <p class="card-text">Price: 10$</p>
@@ -241,7 +241,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/2.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atlas of the Heart</a>
                         <p class="card-text">Price: 10$</p>
@@ -250,7 +250,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/4.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atomic Habits</a>
                         <p class="card-text">Price: 10$</p>
@@ -259,7 +259,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/5.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">It Ends With Us</a>
                         <p class="card-text">Price: 10$</p>
@@ -268,7 +268,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/6.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Katt Loves Dogg</a>
                         <p class="card-text">Price: 10$</p>
@@ -283,7 +283,7 @@ include("./partials/header.php")
             <h4 class="font-weight-bold text-left p-4">Humor & Games</h4>
             <div class="products-gird">
                 <div class="card product-card col-9">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/1.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Angela Davis</a>
                         <p class="card-text">Price: 10$</p>
@@ -292,7 +292,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/3.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Guinness World Records 2022</a>
                         <p class="card-text">Price: 10$</p>
@@ -301,7 +301,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/2.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atlas of the Heart</a>
                         <p class="card-text">Price: 10$</p>
@@ -310,7 +310,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/4.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atomic Habits</a>
                         <p class="card-text">Price: 10$</p>
@@ -319,7 +319,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/5.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">It Ends With Us</a>
                         <p class="card-text">Price: 10$</p>
@@ -328,7 +328,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/6.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Katt Loves Dogg</a>
                         <p class="card-text">Price: 10$</p>
@@ -343,7 +343,7 @@ include("./partials/header.php")
             <h4 class="font-weight-bold text-left p-4">Poetry</h4>
             <div class="products-gird">
                 <div class="card product-card col-9">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/1.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Angela Davis</a>
                         <p class="card-text">Price: 10$</p>
@@ -352,7 +352,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/3.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Guinness World Records 2022</a>
                         <p class="card-text">Price: 10$</p>
@@ -361,7 +361,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/2.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atlas of the Heart</a>
                         <p class="card-text">Price: 10$</p>
@@ -370,7 +370,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/4.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atomic Habits</a>
                         <p class="card-text">Price: 10$</p>
@@ -379,7 +379,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/5.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">It Ends With Us</a>
                         <p class="card-text">Price: 10$</p>
@@ -388,7 +388,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/6.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Katt Loves Dogg</a>
                         <p class="card-text">Price: 10$</p>
@@ -403,7 +403,7 @@ include("./partials/header.php")
             <h4 class="font-weight-bold text-left p-4">Romance</h4>
             <div class="products-gird">
                 <div class="card product-card col-9">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/1.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Angela Davis</a>
                         <p class="card-text">Price: 10$</p>
@@ -412,7 +412,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/3.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Guinness World Records 2022</a>
                         <p class="card-text">Price: 10$</p>
@@ -421,7 +421,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/2.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atlas of the Heart</a>
                         <p class="card-text">Price: 10$</p>
@@ -430,7 +430,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/4.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Atomic Habits</a>
                         <p class="card-text">Price: 10$</p>
@@ -439,7 +439,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/5.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">It Ends With Us</a>
                         <p class="card-text">Price: 10$</p>
@@ -448,7 +448,7 @@ include("./partials/header.php")
                         cart</button>
                 </div>
                 <div class="card product-card col-10">
-                    <img class="card-img-top p-1 product-img" src="../public/images/booksImages/6.jpg" alt="">
+                    <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="#" class="card-title">Katt Loves Dogg</a>
                         <p class="card-text">Price: 10$</p>
@@ -477,5 +477,5 @@ include("./partials/header.php")
     });
 </script>
 <?php
-include("./partials/footer.php")
+include("./footer.php")
 ?>

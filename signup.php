@@ -1,5 +1,5 @@
 <?php
-  include("./partials/header.php")
+  include("./header.php")
 ?>
 <div class="login p-5 w-100">
     <div class="w-100">
@@ -43,7 +43,7 @@
                     Up</button>
             </form>
             <h5 class="create-account-text mt-4">Already Have an Account?</h5>
-            <a href="login.html" class="signup-btn w-100 btn btn-lg btn-primary mt-3" type="submit">Login</a>
+            <a href="/login.php" class="signup-btn w-100 btn btn-lg btn-primary mt-3" type="submit">Login</a>
         </main>
 
     </div>
@@ -97,5 +97,5 @@
     });
 </script>
 <?php
-  include("./partials/footer.php")
+  include("./footer.php")
 ?>
