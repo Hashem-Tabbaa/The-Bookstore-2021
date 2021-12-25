@@ -28,8 +28,8 @@
                 <a href="#" class="card-title">Angela Davis</a>
                 <p class="card-text">Price: 10$</p>
               </div>
-              <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
-                cart</button>
+              <a class="add-toCart-btn btn" href="cart.html"><i class="fas fa-shopping-cart"></i> Add to
+                cart</a>
             </div>
             <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">

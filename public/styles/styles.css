@@ -388,26 +388,113 @@ a:hover {
   }
 }
 /*                                               Cart Page                                                           */
-.cartPage{
+.cart-products-img{
+  width: 200px;
+}
+.cart-products-info{
+  margin-left: 0px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.quantity{
+  text-align: center;
+  padding: 1rem;
+  width: 26%;
+  border-radius: 9999px;
+  height: 20px;
+}
+.plus-btn, .minus-btn{
   height: fit-content;
 }
-.rightCartPage,.leftCartPage{
-  height: fit-content;
+.plus-btn:hover{
+  border-color: blue;
+}
+.minus-btn:hover{
+  border-color: red;
+}
+.quantity-section{
+  margin-top: 20px;
+}
+.cart-btns{
+  margin-top:20px ;
+}
+.cart-btns button{
+  width: fit-content;
+  font-size: small;
+}
+.remove-btn{
+  margin-right: 10px;
 }
 .cart-product-card{
-  border: #aeadad solid 3px;
-  padding: 2%;
-  border-radius: 5%;
-  margin-top: 5%;
+  display: flex ;
+  border: solid #99a4ae 1px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cart-description{
+  display:none;
+}
+.invoice{
+  height: fit-content;
+  border: #8f8f8f 1px solid;
+  margin-top: 8px;
+  margin-bottom: 8px;
   text-align: left;
-  margin-bottom: 20%;
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: stretch;
+  padding: 5%;
 }
-.cart-product-img{
-  width: 50%;
+.invoice p,h5{
+  font-size: small;
 }
-.cart-product-img-container{
+.note{
+  font-size: smaller!important;
+}
+@media (min-width: 1000px){
+  .cart-product-card{
+    flex-wrap: nowrap;
+  }
+  .cart-products-info{
+    margin-left: 25px;
+    margin-bottom: 0;
+  }
+  .cart-btns{
+    margin-top:100px ;
+    margin-right: 10px;
+  }
+  .quantity-section{
+    margin-top: 60px;
+  }
+  .cart-description{
+    display:inherit;
+  }
+  .invoice p,h5{
+    font-size: inherit;
+  }
+}
+/*                                                          Categories Page                                                          */
+.categories-checkbox{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: #85929b solid 0.5px;
   width: fit-content;
+  padding: 2%;
+  height: fit-content;
+}
+.categories-checkbox div{
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+}
+.categories-checkbox label{
+  margin-left: 5px;
+}
+.category .products-gird{
+  padding: 1%;
+  padding-top: 0;
+}
+.category{
+  border-left: #85929b solid 0.5px;
+}
+.categories hr{
+  margin:0;
 }

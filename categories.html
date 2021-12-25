@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>The Bookstore</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/styles/styles.css">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <!-- Main Section -->
+    <section class="colored-section" id="header">
+        <div class="container-fluid">
+            <!-- Nav Bar -->
+            <div class="socials">
+                <a class="login-signin" href="login.html">Login</a>
+                <a class="login-signin mr-3" href="signup.html">Signup</a>
+                <a class="social-icon mr-3" href="#"><img src="/public/images/facebook.png" alt=""></a>
+                <a class="social-icon mr-3" href="#"><img src="/public/images/twitter.png" alt=""></a>
+                <a class="social-icon mr-3" href="#"><img src="/public/images/instagram.png" alt=""></a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-dark pb-4">
+
+                <a class="navbar-brand" href="index.html">The Bookstore</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icons" href="#"><img class="" src="/public/images/user.png"
+                                    alt=""></a>
+                            <a class="nav-text nav-link ">Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icons ml-2" href="#"><img class=""
+                                    src="/public/images/shopping-cart.png" alt=""></a>
+                            <a class="nav-text nav-link">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-icons ml-3" href="#"><img class="" src="/public/images/wishlist.png"
+                                    alt=""></a>
+                            <a class="nav-text nav-link ">Wishlist</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="categories-container d-flex">
+        <aside class="categories-checkbox sticky-top">
+            <div>
+                <input type="checkbox" value="Historical" id="Historical" checked>
+                <label for="Historical">Historical</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Scientific" id="Scientific">
+                <label for="Scientific">Scientific</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Biography" id="Biography">
+                <label for="Biography">Biography</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="For-Children" id="For-Children">
+                <label for="For-Children">For Children</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Humor-games" id="Humor-games">
+                <label for="Humor-games">Humor & Games</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Poetry" id="Poetry">
+                <label for="Poetry">Poetry</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Romance" id="Romance">
+                <label for="Romance">Romance</label>
+            </div>
+        </aside>
+        <div class="categories">
+            <div class="category Historical">
+                <h4 class="font-weight-bold text-left p-4">Historical</h4>
+                <div class="products-gird">
+                    <div class="card product-card col-9">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Angela Davis</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Guinness World Records 2022</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atlas of the Heart</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atomic Habits</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">It Ends With Us</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/6.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Katt Loves Dogg</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="category Scientific">
+                <h4 class="font-weight-bold text-left p-4">Scientific</h4>
+                <div class="products-gird">
+                    <div class="card product-card col-9">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Angela Davis</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Guinness World Records 2022</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atlas of the Heart</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atomic Habits</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">It Ends With Us</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/6.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Katt Loves Dogg</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="category Biography">
+                <h4 class="font-weight-bold text-left p-4">Biography</h4>
+                <div class="products-gird">
+                    <div class="card product-card col-9">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Angela Davis</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Guinness World Records 2022</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atlas of the Heart</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atomic Habits</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">It Ends With Us</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/6.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Katt Loves Dogg</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="category For-Children">
+                <h4 class="font-weight-bold text-left p-4">For Children</h4>
+                <div class="products-gird">
+                    <div class="card product-card col-9">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Angela Davis</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Guinness World Records 2022</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atlas of the Heart</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atomic Habits</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">It Ends With Us</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/6.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Katt Loves Dogg</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="category Humor-games">
+                <h4 class="font-weight-bold text-left p-4">Humor & Games</h4>
+                <div class="products-gird">
+                    <div class="card product-card col-9">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Angela Davis</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Guinness World Records 2022</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atlas of the Heart</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atomic Habits</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">It Ends With Us</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/6.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Katt Loves Dogg</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="category Poetry">
+                <h4 class="font-weight-bold text-left p-4">Poetry</h4>
+                <div class="products-gird">
+                    <div class="card product-card col-9">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Angela Davis</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Guinness World Records 2022</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atlas of the Heart</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atomic Habits</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">It Ends With Us</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/6.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Katt Loves Dogg</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="category Romance">
+                <h4 class="font-weight-bold text-left p-4">Romance</h4>
+                <div class="products-gird">
+                    <div class="card product-card col-9">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/1.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Angela Davis</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/3.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Guinness World Records 2022</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/2.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atlas of the Heart</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/4.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Atomic Habits</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">It Ends With Us</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                    <div class="card product-card col-10">
+                        <img class="card-img-top p-1 product-img" src="/public/images/booksImages/6.jpg" alt="">
+                        <div class="card-body">
+                            <a href="#" class="card-title">Katt Loves Dogg</a>
+                            <p class="card-text">Price: 10$</p>
+                        </div>
+                        <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
+                            cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('input').forEach(element => {
+            if (element.checked === false) {
+                var categoryClass = "." + element.value;
+                document.querySelector(categoryClass).style.display = "none";
+            }
+            element.addEventListener('click', (e) => {
+                var categoryClass = "." + element.value;
+                if (element.checked === false) {
+                    document.querySelector(categoryClass).style.display = "none";
+                } else {
+                    document.querySelector(categoryClass).style.display = "inherit";
+                }
+            })
+        });
+    </script>
+    <!-- Footer -->
+    <section class="colored-section footer">
+        <!-- Footer -->
+        <footer class="text-center text-lg-start text-muted">
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start ">
+                    <!-- Grid row -->
+                    <div class="row">
+                        <!-- Grid column -->
+                        <div class="mt-5 col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <i class="fas fa-gem me-3"></i>The Bookstore
+                            </h6>
+                            <p>
+                                Located in Jordan, Amman. At University Street, building 25.
+                            </p>
+                        </div>
+                        <div class="mt-5 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                About Us
+                            </h6>
+                            <p>
+                                We are a jordanian eccomerce company.
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="mt-5 col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Useful links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Categories</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Contact</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Account</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Help</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="mt-5 col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contact
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> Jordan, Amman</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                thebookstore@hotmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 962 795 697 750</p>
+                            <p><i class="fas fa-print me-3"></i> + 962 132 456 78</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-2" style="background-color: rgba(0, 0, 0, 0.05);">
+                Developed and Maintained by Hashem Altabbaa.
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </section>
+</body>
+
+</html>
