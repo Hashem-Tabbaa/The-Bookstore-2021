@@ -1,5 +1,5 @@
 <?php
-  include("./views/header.php")
+  include("./partials/header.php")
 ?>
 <section class="colored-section" id="title">
       <div class="container-fluid">
@@ -402,5 +402,5 @@
       </div>
   </section>
 <?php
-  include("./views/footer.php")
+  include("./partials/footer.php")
 ?>
