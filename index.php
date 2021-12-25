@@ -27,7 +27,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/1.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Angela Davis</a>
+                              <a href="/product.php" class="card-title">Angela Davis</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -36,7 +36,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/3.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Guinness World Records 2022</a>
+                              <a href="/product.php" class="card-title">Guinness World Records 2022</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -45,7 +45,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/2.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atlas of the Heart</a>
+                              <a href="/product.php" class="card-title">Atlas of the Heart</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -54,7 +54,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/4.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atomic Habits</a>
+                              <a href="/product.php" class="card-title">Atomic Habits</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -63,7 +63,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/5.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">It Ends With Us</a>
+                              <a href="/product.php" class="card-title">It Ends With Us</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -72,7 +72,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/6.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Katt Loves Dogg</a>
+                              <a href="/product.php" class="card-title">Katt Loves Dogg</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -85,7 +85,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/1.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Angela Davis</a>
+                              <a href="/product.php" class="card-title">Angela Davis</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -94,7 +94,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/3.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Guinness World Records 2022</a>
+                              <a href="/product.php" class="card-title">Guinness World Records 2022</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -103,7 +103,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/2.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atlas of the Heart</a>
+                              <a href="/product.php" class="card-title">Atlas of the Heart</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -112,7 +112,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/4.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atomic Habits</a>
+                              <a href="/product.php" class="card-title">Atomic Habits</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -121,7 +121,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/5.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">It Ends With Us</a>
+                              <a href="/product.php" class="card-title">It Ends With Us</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -130,7 +130,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/6.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Katt Loves Dogg</a>
+                              <a href="/product.php" class="card-title">Katt Loves Dogg</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -157,7 +157,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/1.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Angela Davis</a>
+                  <a href="/product.php" class="card-title">Angela Davis</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -166,7 +166,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/3.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Guinness World Records 2022</a>
+                  <a href="/product.php" class="card-title">Guinness World Records 2022</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -175,7 +175,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/2.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Atlas of the Heart</a>
+                  <a href="/product.php" class="card-title">Atlas of the Heart</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -184,7 +184,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/4.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Atomic Habits</a>
+                  <a href="/product.php" class="card-title">Atomic Habits</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -193,7 +193,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/5.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">It Ends With Us</a>
+                  <a href="/product.php" class="card-title">It Ends With Us</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -202,7 +202,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/6.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Katt Loves Dogg</a>
+                  <a href="/product.php" class="card-title">Katt Loves Dogg</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -213,7 +213,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/1.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Angela Davis</a>
+                  <a href="/product.php" class="card-title">Angela Davis</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -222,7 +222,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/3.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Guinness World Records 2022</a>
+                  <a href="/product.php" class="card-title">Guinness World Records 2022</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -231,7 +231,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/2.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Atlas of the Heart</a>
+                  <a href="/product.php" class="card-title">Atlas of the Heart</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -240,7 +240,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/4.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Atomic Habits</a>
+                  <a href="/product.php" class="card-title">Atomic Habits</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -249,7 +249,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/5.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">It Ends With Us</a>
+                  <a href="/product.php" class="card-title">It Ends With Us</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -258,7 +258,7 @@
           <div class="card product-card col-11">
               <img class="card-img-top p-1 product-img" src="/images/booksImages/6.jpg" alt="">
               <div class="card-body">
-                  <a href="product.html" class="card-title">Katt Loves Dogg</a>
+                  <a href="/product.php" class="card-title">Katt Loves Dogg</a>
                   <p class="card-text">Price: 10$</p>
               </div>
               <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -279,7 +279,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/1.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Angela Davis</a>
+                              <a href="/product.php" class="card-title">Angela Davis</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -288,7 +288,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/3.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Guinness World Records 2022</a>
+                              <a href="/product.php" class="card-title">Guinness World Records 2022</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -297,7 +297,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/2.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atlas of the Heart</a>
+                              <a href="/product.php" class="card-title">Atlas of the Heart</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -306,7 +306,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/4.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atomic Habits</a>
+                              <a href="/product.php" class="card-title">Atomic Habits</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -315,7 +315,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/5.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">It Ends With Us</a>
+                              <a href="/product.php" class="card-title">It Ends With Us</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -324,7 +324,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/6.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Katt Loves Dogg</a>
+                              <a href="/product.php" class="card-title">Katt Loves Dogg</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -337,7 +337,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/1.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Angela Davis</a>
+                              <a href="/product.php" class="card-title">Angela Davis</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -346,7 +346,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/3.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Guinness World Records 2022</a>
+                              <a href="/product.php" class="card-title">Guinness World Records 2022</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -355,7 +355,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/2.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atlas of the Heart</a>
+                              <a href="/product.php" class="card-title">Atlas of the Heart</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -364,7 +364,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/4.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Atomic Habits</a>
+                              <a href="/product.php" class="card-title">Atomic Habits</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -373,7 +373,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/5.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">It Ends With Us</a>
+                              <a href="/product.php" class="card-title">It Ends With Us</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
@@ -382,7 +382,7 @@
                       <div class="card product-card col-11">
                           <img class="card-img-top p-1 product-img" src="/images/booksImages/6.jpg" alt="">
                           <div class="card-body">
-                              <a href="product.html" class="card-title">Katt Loves Dogg</a>
+                              <a href="/product.php" class="card-title">Katt Loves Dogg</a>
                               <p class="card-text">Price: 10$</p>
                           </div>
                           <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
