@@ -6,18 +6,18 @@
     <div class="cart-products col-8">
         <div class="cart-product-card p-4 m-2">
             <div>
-                <img class="cart-products-img" src="./images/booksImages/1.jpg" alt="">
+                <img class="cart-products-img" src="../images/booksImages/1.jpg" alt="">
             </div>
             <div class="cart-products-info">
                 <h4 class="font-weight-bold">Angela Davis</h4>
                 <div class="quantity-section">
                     <h6 class="font-weight-bold">Quantity</h6>
                     <div class="d-flex quantity-box align-items-baseline">
-                        <button type="button" class="btn-sm btn minus-btn circle mr-2">
+                        <button type="button" class="btn-sm btn minus-btn circle mr-2" id="m1">
                             <i class="fa fa-minus" aria-hidden="true"></i>
                         </button>
-                        <input class="quantity" value="1" disabled></input>
-                        <button type="button" class="btn btn-sm plus-btn circle ml-2">
+                        <input class="quantity" value="1" id="v1" disabled></input>
+                        <button type="button" class="btn btn-sm plus-btn circle ml-2" id="p1">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </button>
                     </div>
@@ -39,18 +39,18 @@
         </div>
         <div class="cart-product-card p-4 m-2">
             <div>
-                <img class="cart-products-img" src="./images/booksImages/2.jpg" alt="">
+                <img class="cart-products-img" src="../images/booksImages/2.jpg" alt="">
             </div>
             <div class="cart-products-info">
                 <h4 class="font-weight-bold">Atlas of The Heart</h4>
                 <div class="quantity-section">
                     <h6 class="font-weight-bold">Quantity</h6>
                     <div class="d-flex quantity-box align-items-baseline">
-                        <button type="button" class="btn-sm btn minus-btn circle mr-2">
+                        <button type="button" class="btn-sm btn minus-btn circle mr-2" id="m2">
                             <i class="fa fa-minus" aria-hidden="true"></i>
                         </button>
-                        <input class="quantity" value="1" disabled></input>
-                        <button type="button" class="btn btn-sm plus-btn circle ml-2">
+                        <input class="quantity" value="1" id="v2" disabled></input>
+                        <button type="button" class="btn btn-sm plus-btn circle ml-2" id="p2">
                             <i class="fa fa-plus" aria-hidden="true"></i>
                         </button>
                     </div>
@@ -87,6 +87,28 @@
         </div>
     </div>
 </div>
+<script>
+    document.querySelectorAll('.plus-btn').forEach(element => {
+        element.addEventListener('click', (e) => {
+            e.preventDefault();
+            var quantityID = "#v" + element.id[1];
+            // alert(quantityID);
+            var value = parseInt(document.querySelector(quantityID).value);
+            if(value < 10) 
+                document.querySelector(quantityID).value = value+1;
+        });
+    });
+    document.querySelectorAll('.minus-btn').forEach(element => {
+        element.addEventListener('click', (e) => {
+            e.preventDefault();
+            var quantityID = "#v" + element.id[1];
+            // alert(quantityID);
+            var value = parseInt(document.querySelector(quantityID).value);
+            if(value > 1) 
+                document.querySelector(quantityID).value = value-1;
+        });
+    });
+</script>
 <?php
   include("./footer.php")
 ?>
