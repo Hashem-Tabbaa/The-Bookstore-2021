@@ -11,7 +11,7 @@
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/public/styles/styles.css">
+    <link rel="stylesheet" href="../../public/styles/styles.css">
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -34,15 +34,15 @@
         <div class="container-fluid">
             <!-- Nav Bar -->
             <div class="socials">
-                <a class="login-signin" href="#">Login</a>
-                <a class="login-signin mr-3" href="#">Signup</a>
-                <a class="social-icon mr-3" href="#"><img src="/public/images/facebook.png" alt=""></a>
-                <a class="social-icon mr-3" href="#"><img src="/public/images/twitter.png" alt=""></a>
-                <a class="social-icon mr-3" href="#"><img src="/public/images/instagram.png" alt=""></a>
+                <a class="login-signin" href="../login.php">Login</a>
+                <a class="login-signin mr-3" href="../signup.php">Signup</a>
+                <a class="social-icon mr-3" href="#"><img src="../../public/images/facebook.png" alt=""></a>
+                <a class="social-icon mr-3" href="#"><img src="../../public/images/twitter.png" alt=""></a>
+                <a class="social-icon mr-3" href="#"><img src="../../public/images/instagram.png" alt=""></a>
             </div>
             <nav class="navbar navbar-expand-lg navbar-dark pb-4">
 
-                <a class="navbar-brand" href="">The Bookstore</a>
+                <a class="navbar-brand" href="../../index.php">The Bookstore</a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
                     <span class="navbar-toggler-icon"></span>
@@ -55,22 +55,22 @@
                             <a class="nav-link" href="#footer">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Categories</a>
+                            <a class="nav-link" href="../categories.php">Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-icons" href="#"><img class="" src="/public/images/user.png"
+                            <a class="nav-link nav-icons" href="#"><img class="" src="../../public/images/user.png"
                                     alt=""></a>
                             <a class="nav-text nav-link ">Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-icons ml-2" href="#"><img class=""
-                                    src="/public/images/shopping-cart.png" alt=""></a>
-                            <a class="nav-text nav-link">Cart</a>
+                            <a class="nav-link nav-icons ml-2" href="cart.html"><img class=""
+                                    src="../../public/images/shopping-cart.png" alt=""></a>
+                            <a class="nav-text nav-link" href="../cart.php">Cart</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-icons ml-3" href="#"><img class="" src="/public/images/wishlist.png"
+                            <a class="nav-link nav-icons ml-3" href="#"><img class="" src="../../public/images/wishlist.png"
                                     alt=""></a>
-                            <a class="nav-text nav-link ">Wishlist</a>
+                            <a class="nav-text nav-link">Wishlist</a>
                         </li>
                     </ul>
                 </div>
