@@ -5,7 +5,7 @@
     <div class="w-100">
         <main class="form-signin m-auto w-75">
             <form>
-                <!-- <img src="public/images/user-login.png" alt=""> -->
+                <img src=../images/user-login.png" alt="">
                 <h1 class="h3 mt-3 fw-normal">Create New Account</h1>
                 <div class="first-last-name form-floating mt-3 row pl-3">
                     <div class="first-name">
@@ -39,16 +39,47 @@
                         name="phoneNumber">
                     <p class="checkPhoneNumber"></p>
                 </div>
+                <div class="form-floating mt-3">
+                    <label class="font-weight-bold" for="city">*City</label>
+                    <select class="form-select ml-2" aria-label="Default select example" name="city">
+                        <option value="Amman">Amman</option>
+                        <option value="Irbid">Irbid</option>
+                        <option value="Zarqa">Zarqa</option>
+                        <option value="Jerash">Jerash</option>
+                        <option value="Madaba">Madaba</option>
+                        <option value="Aqaba">Aqaba</option>
+                        <option value="Karak">Karak</option>
+                        <option value="Mafraq">Mafraq</option>
+                        <option value="Ajloun">Ajloun</option>
+                        <option value="Maan">Ma'an</option>
+                        <option value="Tafelah">Tafelah</option>
+                        <option value="Balqa">Balqa</option>
+                    </select>
+                </div>
+                <div class="first-last-name form-floating mt-3 row pl-3">
+                    <div class="first-name">
+                        <label class="font-weight-bold" for="Place">*Place</label>
+                        <input type="text" class="form-control" id="Place" name="Place" required>
+                    </div>
+                    <div class="last-name">
+                        <label class="font-weight-bold" for="streetName">*Street Name</label>
+                        <input type="text" class="form-control" id="StreetName" name="streetName" required>
+                    </div>
+                </div>
+                <div class="form-floating mt-3">
+                    <label class="font-weight-bold" for="buildingNumber">*Building Number</label>
+                    <input type="number" class="form-control" id="buildingNumber" name="buildingNumber" required>
+                </div>
                 <button class="login-btn w-100 btn btn-lg btn-primary mt-3" id="signupBtn" type="submit">Sign
                     Up</button>
             </form>
             <h5 class="create-account-text mt-4">Already Have an Account?</h5>
-            <a href="/login.php" class="signup-btn w-100 btn btn-lg btn-primary mt-3" type="submit">Login</a>
+            <a href="login.html" class="signup-btn w-100 btn btn-lg btn-primary mt-3" type="submit">Login</a>
         </main>
 
     </div>
     <div class="login-image">
-        <img src="/images/login-book.png" alt="">
+        <img src="../images/login-book.png" alt="">
     </div>
 </div>
 <script>
