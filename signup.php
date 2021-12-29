@@ -48,7 +48,7 @@
 
     </div>
     <div class="login-image">
-        <img src="../public/images/login-book.png" alt="">
+        <img src="/images/login-book.png" alt="">
     </div>
 </div>
 <script>
@@ -87,7 +87,7 @@
         }
 
         //check if the phone number length is valid (10 digits)
-        if ((phoneNumber.length > 0 && phoneNumber.length < 10) || !valid) {
+        if ((phoneNumber.length > 0 && phoneNumber.length < 10) || !valid || phoneNumber.length>10) {
             document.querySelector('.checkPhoneNumber').innerHTML = "*Invalid phone number.";
             document.querySelector('#signupBtn').disabled = true;
         } else {

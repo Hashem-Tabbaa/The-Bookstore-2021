@@ -58,13 +58,12 @@
                             <a class="nav-link" href="">Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-icons" href="#"><img class="" src="../images/user.png"
-                                    alt=""></a>
+                            <a class="nav-link nav-icons" href="#"><img class="" src="../images/user.png" alt=""></a>
                             <a class="nav-text nav-link ">Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-icons ml-2" href="#"><img class=""
-                                    src="../images/shopping-cart.png" alt=""></a>
+                            <a class="nav-link nav-icons ml-2" href="#"><img class="" src="../images/shopping-cart.png"
+                                    alt=""></a>
                             <a class="nav-text nav-link">Cart</a>
                         </li>
                         <li class="nav-item">
@@ -114,6 +113,37 @@
                         <input type="tel" class="form-control" id="phoneNumber" placeholder="07xxxxxxxx"
                             name="phoneNumber">
                         <p class="checkPhoneNumber"></p>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <label class="font-weight-bold" for="city">*City</label>
+                        <select class="form-select ml-2" aria-label="Default select example" name="city">
+                            <option value="Amman">Amman</option>
+                            <option value="Irbid">Irbid</option>
+                            <option value="Zarqa">Zarqa</option>
+                            <option value="Jerash">Jerash</option>
+                            <option value="Madaba">Madaba</option>
+                            <option value="Aqaba">Aqaba</option>
+                            <option value="Karak">Karak</option>
+                            <option value="Mafraq">Mafraq</option>
+                            <option value="Ajloun">Ajloun</option>
+                            <option value="Maan">Ma'an</option>
+                            <option value="Tafelah">Tafelah</option>
+                            <option value="Balqa">Balqa</option>
+                        </select>
+                    </div>
+                    <div class="first-last-name form-floating mt-3 row pl-3">
+                        <div class="first-name">
+                            <label class="font-weight-bold" for="Place">*Place</label>
+                            <input type="text" class="form-control" id="Place" name="Place" required>
+                        </div>
+                        <div class="last-name">
+                            <label class="font-weight-bold" for="streetName">*Street Name</label>
+                            <input type="text" class="form-control" id="StreetName" name="streetName" required>
+                        </div>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <label class="font-weight-bold" for="buildingNumber">*Building Number</label>
+                        <input type="number" class="form-control" id="buildingNumber" name="buildingNumber" required>
                     </div>
                     <button class="login-btn w-100 btn btn-lg btn-primary mt-3" id="signupBtn" type="submit">Sign
                         Up</button>
@@ -209,7 +239,7 @@
     </section>
 
     <script>
-        document.querySelector('#password').addEventListener('keyup', (element)=>{
+        document.querySelector('#password').addEventListener('keyup', (element) => {
             var password = document.querySelector('#password').value;
             var passwordAgain = document.querySelector('#passwordAgain').value;
             if (password !== passwordAgain && passwordAgain.length > 0) {
@@ -233,13 +263,14 @@
         });
         document.querySelector('#phoneNumber').addEventListener('keyup', (element) => {
             var phoneNumber = document.querySelector('#phoneNumber').value;
-            
-            var valid = !isNaN(phoneNumber); //check if the phone number does not contain text using isNaN function.
+
+            var valid = !isNaN(
+            phoneNumber); //check if the phone number does not contain text using isNaN function.
 
             //if the phone number length is greater than 2, check the if the first three digits are valid jordanian compainies.
-            if (phoneNumber.length > 2){ 
+            if (phoneNumber.length > 2) {
                 var firstThreeDigits = phoneNumber[0] + phoneNumber[1] + phoneNumber[2];
-                if(firstThreeDigits !== "079" && firstThreeDigits !== "078" && firstThreeDigits !== "077")
+                if (firstThreeDigits !== "079" && firstThreeDigits !== "078" && firstThreeDigits !== "077")
                     valid = !valid;
             }
 
