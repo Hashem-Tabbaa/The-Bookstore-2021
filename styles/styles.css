@@ -445,7 +445,7 @@ a:hover {
   margin-top: 50px;
 }
 
-.cart-btns {  
+.cart-btns {
   margin-top: 50px;
 }
 
@@ -486,7 +486,8 @@ h5 {
 .note {
   font-size: smaller !important;
 }
-.cart-price{
+
+.cart-price {
   margin-top: 10px;
 }
 
@@ -494,9 +495,11 @@ h5 {
   .cart-product-card {
     flex-wrap: nowrap;
   }
-  .cart-price{
+
+  .cart-price {
     margin-top: 0px;
   }
+
   .cart-products-info {
     margin-left: 25px;
     margin-bottom: 0;
@@ -564,5 +567,55 @@ input[type=checkbox] {
   input[type=checkbox] {
     transform: inherit;
     margin-right: 0;
+  }
+}
+
+/*                                        Accoutn Page                                                                  */
+.securityAndlogin,
+.addressInfo {
+  width: 50%;
+  height: fit-content;
+}
+.accountPage{
+  gap: 50px;
+}
+.accountPage .card-title {
+  font-size: large;
+}
+.accountPage p{
+  font-size: small;
+}
+.changeAccountInfo{
+  align-items: baseline;
+  justify-content: space-between;
+}
+.changebtn{
+  width: fit-content;
+  font-size: 0.6em;
+  height: fit-content;
+}
+.hidden label,select{
+  font-size: 0.7em;
+}
+.hidden input,select{
+  height: 25px;
+}
+.hidden{
+  display: none;
+}
+
+@media (min-width: 1028px) {
+  .accountPage p {
+    font-size: large;
+  }
+  .accountPage .card-title {
+    gap: 1%;
+    font-size: larger;
+  }
+  .changebtn{
+    font-size: 1em;
+  }
+  .hidden input{
+    width: 50%;
   }
 }
