@@ -198,12 +198,18 @@ a:hover {
 .product-img {
   height: 50%;
 }
-
+.product-card button{
+  width: fit-content;
+  font-size: small;
+}
 .product-card {
   align-items: center;
   background-color: #d0dae1;
+  width: 80%;
 }
-
+.product-card img{
+  width: 110px!important;
+}
 .product-card:hover {
   box-shadow: 0 4px 8px 0 #85929b;
   transition: 0.5s;

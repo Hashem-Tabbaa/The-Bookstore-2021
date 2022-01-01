@@ -42,7 +42,7 @@ include("./header.php")
         <div class="category Historical">
             <h4 class="font-weight-bold text-left p-4">Historical</h4>
             <div class="products-gird">
-                <div class="card product-card col-9">
+                <div class="card product-card ">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Angela Davis</a>
@@ -51,7 +51,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Guinness World Records 2022</a>
@@ -60,7 +60,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atlas of the Heart</a>
@@ -69,7 +69,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atomic Habits</a>
@@ -78,7 +78,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">It Ends With Us</a>
@@ -87,7 +87,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Katt Loves Dogg</a>
@@ -102,7 +102,7 @@ include("./header.php")
         <div class="category Scientific">
             <h4 class="font-weight-bold text-left p-4">Scientific</h4>
             <div class="products-gird">
-                <div class="card product-card col-9">
+                <div class="card product-card ">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Angela Davis</a>
@@ -111,7 +111,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Guinness World Records 2022</a>
@@ -120,7 +120,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atlas of the Heart</a>
@@ -129,7 +129,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atomic Habits</a>
@@ -138,7 +138,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">It Ends With Us</a>
@@ -147,7 +147,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Katt Loves Dogg</a>
@@ -162,7 +162,7 @@ include("./header.php")
         <div class="category Biography">
             <h4 class="font-weight-bold text-left p-4">Biography</h4>
             <div class="products-gird">
-                <div class="card product-card col-9">
+                <div class="card product-card ">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Angela Davis</a>
@@ -171,7 +171,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Guinness World Records 2022</a>
@@ -180,7 +180,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atlas of the Heart</a>
@@ -189,7 +189,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atomic Habits</a>
@@ -198,7 +198,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">It Ends With Us</a>
@@ -207,7 +207,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Katt Loves Dogg</a>
@@ -222,7 +222,7 @@ include("./header.php")
         <div class="category For-Children">
             <h4 class="font-weight-bold text-left p-4">For Children</h4>
             <div class="products-gird">
-                <div class="card product-card col-9">
+                <div class="card product-card ">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Angela Davis</a>
@@ -231,7 +231,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Guinness World Records 2022</a>
@@ -240,7 +240,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atlas of the Heart</a>
@@ -249,7 +249,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atomic Habits</a>
@@ -258,7 +258,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">It Ends With Us</a>
@@ -267,7 +267,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Katt Loves Dogg</a>
@@ -282,7 +282,7 @@ include("./header.php")
         <div class="category Humor-games">
             <h4 class="font-weight-bold text-left p-4">Humor & Games</h4>
             <div class="products-gird">
-                <div class="card product-card col-9">
+                <div class="card product-card ">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Angela Davis</a>
@@ -291,7 +291,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Guinness World Records 2022</a>
@@ -300,7 +300,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atlas of the Heart</a>
@@ -309,7 +309,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atomic Habits</a>
@@ -318,7 +318,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">It Ends With Us</a>
@@ -327,7 +327,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Katt Loves Dogg</a>
@@ -342,7 +342,7 @@ include("./header.php")
         <div class="category Poetry">
             <h4 class="font-weight-bold text-left p-4">Poetry</h4>
             <div class="products-gird">
-                <div class="card product-card col-9">
+                <div class="card product-card ">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Angela Davis</a>
@@ -351,7 +351,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Guinness World Records 2022</a>
@@ -360,7 +360,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atlas of the Heart</a>
@@ -369,7 +369,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atomic Habits</a>
@@ -378,7 +378,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">It Ends With Us</a>
@@ -387,7 +387,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Katt Loves Dogg</a>
@@ -402,7 +402,7 @@ include("./header.php")
         <div class="category Romance">
             <h4 class="font-weight-bold text-left p-4">Romance</h4>
             <div class="products-gird">
-                <div class="card product-card col-9">
+                <div class="card product-card ">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/1.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Angela Davis</a>
@@ -411,7 +411,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/3.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Guinness World Records 2022</a>
@@ -420,7 +420,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/2.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atlas of the Heart</a>
@@ -429,7 +429,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/4.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Atomic Habits</a>
@@ -438,7 +438,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/5.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">It Ends With Us</a>
@@ -447,7 +447,7 @@ include("./header.php")
                     <button class="add-toCart-btn btn" type="submit"><i class="fas fa-shopping-cart"></i> Add to
                         cart</button>
                 </div>
-                <div class="card product-card col-10">
+                <div class="card product-card">
                     <img class="card-img-top p-1 product-img" src="./images/booksImages/6.jpg" alt="">
                     <div class="card-body">
                         <a href="/product.php" class="card-title">Katt Loves Dogg</a>
