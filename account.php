@@ -148,6 +148,7 @@ include("./header.php")
             document.querySelector('.submitBtn').disabled = false;
         }
     });
+    document.querySelectorAll('.hidden').forEach(element =>{element.style.display = "none"})
     document.querySelectorAll('.changebtn').forEach(element => {
         element.addEventListener('click', (e) => {
             e.preventDefault();
