@@ -155,6 +155,7 @@ a:hover {
 /* Title Image */
 
 .title-image {
+  visibility: hidden;
   position: static;
   transform: rotate(0);
   width: 50%;
@@ -287,12 +288,12 @@ a:hover {
   }
 
   .title-image {
+    visibility: visible;
     width: 70%;
     transform: rotate(25deg);
     position: absolute;
     right: 30%;
     height: 400px;
-    visibility: hidden;
   }
 
   .big-heading {
@@ -361,10 +362,6 @@ a:hover {
 }
 
 @media (min-width : 1028px) {
-  .title-image {
-    visibility: visible;
-  }
-
   .first-last-name {
     grid-template-columns: auto auto;
   }
