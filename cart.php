@@ -2,8 +2,8 @@
   include("./header.php")
 ?>
 <h4 class="font-weight-bold text-left mt-3 ml-4">My Cart Items</h4>
-<div class="d-flex">
-    <div class="cart-products col-8">
+<div class="d-flex cartPage">
+    <div class="cart-products">
         <div class="cart-product-card p-4 m-2">
             <div>
                 <img class="cart-products-img" src="../images/booksImages/1.jpg" alt="">
@@ -71,7 +71,7 @@
             </div>
         </div>
     </div>
-    <div class="cart-info col-4">
+    <div class="cart-info">
         <div class="invoice">
             <h5 class="font-weight-bold"> Delivery Details</h5>
             <p>Jordan - Amman - Tlaa Al Ali - Riffaa Al Ansari - 25</p>
