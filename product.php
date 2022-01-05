@@ -9,10 +9,10 @@
         <h3 class="font-weight-bold">Angela Davis</h3>
         <p>John Koenig (Author)</p>
         <h4 class="font-weight-bold">Price : 15$</h4>
-        <button class="add-toCart-btn-productPage btn btn-primary" type="submit"><i
+        <button class="add-toCart-btn-productPage btn btn-primary mt-3" type="submit"><i
                 class="fas fa-shopping-cart"></i> Add to
             cart</button>
-        <button class="add-toWishlist-btn-productPage btn ml-2" type="submit"><i class="fas fa-heart"></i> Add to
+        <button class="add-toWishlist-btn-productPage btn mt-3" type="submit"><i class="fas fa-heart"></i> Add to
             Wishlist</button>
         <hr>
         <h3 class="font-weight-bold"> Description</h3>
