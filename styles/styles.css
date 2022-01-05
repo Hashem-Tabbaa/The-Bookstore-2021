@@ -343,6 +343,7 @@ a:hover {
   border: #8f8f8f solid;
   padding: 5%;
   border-radius: 5%;
+  width: fit-content !important;
 }
 
 .create-account-text {
@@ -368,13 +369,8 @@ a:hover {
   margin-left: 10px;
 }
 
-.signup-btn {
-  color: white !important;
-  font-size: 0.8em;
-}
-
 .login-image {
-  visibility: hidden;
+  display: none;
 }
 
 .first-last-name {
@@ -387,7 +383,11 @@ a:hover {
 .last-name {
   width: 70%;
 }
-
+.login button {
+  width: fit-content;
+  font-size: 1.5em;
+  height: fit-content;
+}
 @media (min-width : 1028px) {
   .first-last-name {
     grid-template-columns: auto auto;
@@ -398,7 +398,7 @@ a:hover {
   }
 
   .login-image {
-    visibility: visible;
+    display: inherit;
   }
 
   .login {
@@ -406,6 +406,22 @@ a:hover {
     height: fit-content;
   }
 }
+@media (max-width: 750px) {
+  .login h4 {
+    font-size: 2em !important;
+  }
+
+  .login h6 {
+    font-size: 1.65em;
+  }
+
+  .login p {
+    font-size: 1.3em;
+  }
+
+  .login label {
+    font-size: 1.4em;
+  }
 
 /*                                                      Product Page                                              */
 .productPage-grid {
