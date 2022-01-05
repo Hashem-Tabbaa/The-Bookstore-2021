@@ -53,6 +53,15 @@ hr {
 }
 
 /* Navigation Bar */
+@media (max-width: 800px) {
+  .login-signin {
+    font-size: 1.3em;
+  }
+  a.navbar-brand{
+    font-size: 1.8em;
+  }
+}
+
 #header {
   background-color: #85929b;
 }
@@ -199,18 +208,22 @@ a:hover {
 .product-img {
   height: 50%;
 }
-.product-card button{
+
+.product-card button {
   width: fit-content;
   font-size: small;
 }
+
 .product-card {
   align-items: center;
   background-color: #d0dae1;
   width: 80%;
 }
-.product-card img{
-  width: 110px!important;
+
+.product-card img {
+  width: 110px !important;
 }
+
 .product-card:hover {
   box-shadow: 0 4px 8px 0 #85929b;
   transition: 0.5s;
@@ -298,6 +311,20 @@ a:hover {
 
   .big-heading {
     font-size: 3.5em;
+  }
+}
+
+@media (max-width : 700px) {
+  h2 {
+    font-size: 2em !important;
+  }
+
+  .products-gird {
+    grid-template-columns: auto !important;
+  }
+
+  .product-card {
+    margin: auto;
   }
 }
 
@@ -412,9 +439,34 @@ a:hover {
   }
 }
 
+@media (max-width: 750px) {
+  .productPage-grid h3 {
+    font-size: 2em !important;
+  }
+
+  .productPage-grid h6 {
+    font-size: 1.65em;
+  }
+
+  .productPage-grid p {
+    font-size: 1.3em;
+  }
+
+  .productPage-grid label {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 500px) {
+  .productPage-grid img {
+    width: 100%;
+  }
+}
+
 /*                                               Cart Page                                                           */
 .cart-products-img {
   width: 200px;
+  margin-right: 10px;
 }
 
 .cart-products-info {
@@ -494,8 +546,34 @@ h5 {
   margin-top: 10px;
 }
 
+.cartPage {
+  flex-wrap: wrap;
+}
+
+.cart-info {
+  width: 100%;
+}
+
+.cart-products {
+  margin: auto;
+}
+
+.cartPage button {
+  width: fit-content;
+  font-size: 1.5em;
+  height: fit-content;
+}
+
 @media (min-width: 1000px) {
+  .cartPage button {
+    font-size: 1em;
+  }
+
   .cart-product-card {
+    flex-wrap: nowrap;
+  }
+
+  .cartPage {
     flex-wrap: nowrap;
   }
 
@@ -506,6 +584,10 @@ h5 {
   .cart-products-info {
     margin-left: 25px;
     margin-bottom: 0;
+  }
+
+  .cart-info {
+    width: 20%;
   }
 
   .cart-btns {
@@ -527,6 +609,43 @@ h5 {
   }
 }
 
+@media (max-width: 750px) {
+  .cartPage h4 {
+    font-size: 2em !important;
+  }
+
+  .cartPage h6,
+  h5 {
+    font-size: 1.65em;
+  }
+
+  .cartPage p {
+    font-size: 1.3em;
+  }
+
+  .cartPage label {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width : 654px) {
+  .cart-product-card {
+    justify-content: center;
+  }
+
+  .cart-products-info {
+    text-align: center !important;
+  }
+
+  .quantity-box {
+    display: block !important;
+  }
+
+  .cart-btns {
+    display: block !important;
+  }
+}
+
 /*                                                          Categories Page                                                          */
 .categories-checkbox {
   display: flex;
@@ -536,6 +655,10 @@ h5 {
   width: fit-content;
   padding: 2%;
   height: fit-content;
+}
+
+.categories-container {
+  justify-content: center;
 }
 
 .categories-checkbox div {
@@ -576,46 +699,96 @@ input[type=checkbox] {
 /*                                        Accoutn Page                                                                  */
 .securityAndlogin,
 .addressInfo {
-  width: 50%;
+  width: 100%;
   height: fit-content;
 }
-.accountPage{
+
+.accountPage {
   gap: 50px;
+  flex-wrap: wrap;
 }
+
 .accountPage .card-title {
   font-size: large;
 }
-.accountPage p{
-  font-size: small;
-}
-.changeAccountInfo{
+
+.changeAccountInfo {
   align-items: baseline;
   justify-content: space-between;
 }
-.changebtn{
+
+.accountPage button {
   width: fit-content;
-  font-size: 0.6em;
+  font-size: 1.5em;
   height: fit-content;
 }
-.hidden label,select{
-  font-size: 0.7em;
-}
-.hidden input,select{
+
+.hidden input,
+select {
   height: 25px;
 }
 
+.accountPage h4 {
+  font-size: 2em !important;
+}
+
+.accountPage h6 {
+  font-size: 1.65em;
+}
+
+.accountPage p {
+  font-size: 1.4em;
+}
+
+.accountPage label {
+  font-size: 1.5em;
+}
+
 @media (min-width: 1028px) {
+  .accountPage {
+    flex-wrap: nowrap;
+  }
+
+  .accountPage label {
+    font-size: 1em;
+  }
+
   .accountPage p {
     font-size: large;
   }
+
   .accountPage .card-title {
     gap: 1%;
     font-size: larger;
   }
-  .changebtn{
+
+  .accountPage button {
     font-size: 1em;
   }
-  .hidden input{
+
+  .hidden input {
     width: 50%;
+  }
+
+  .accountPage h6 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 750px) {
+  .accountPage h4 {
+    font-size: 2em !important;
+  }
+
+  .accountPage h6 {
+    font-size: 1.65em;
+  }
+
+  .accountPage p {
+    font-size: 1.3em;
+  }
+
+  .accountPage label {
+    font-size: 1.4em;
   }
 }
