@@ -2,16 +2,24 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
     <title>The Bookstore</title>
-
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="title" content="bookstore">
+    <meta name="description" content="an eCommerce website to sell and deliver books to the customers ">
+    <meta name="keywords" content="books, bookstore, reading, writing, history books, romance books, children books, scientific books, novels">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="google-site-verification" content="8Dvx9oad3ajJKZBShY2SaSmWCqXirX_g9sUvLakiIh8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -34,11 +42,27 @@
         <div class="container-fluid">
             <!-- Nav Bar -->
             <div class="socials">
-                <a class="login-signin" href="./login.php">Login</a>
-                <a class="login-signin mr-3" href="./signup.php">Signup</a>
-                <a class="social-icon mr-3" href="#"><img src="/images/facebook.png" alt=""></a>
-                <a class="social-icon mr-3" href="#"><img src="/images/twitter.png" alt=""></a>
-                <a class="social-icon mr-3" href="#"><img src="/images/instagram.png" alt=""></a>
+                <?php
+                    if(session_status() ==  PHP_SESSION_NONE){
+                      session_start();
+                    }
+                    // var_dump($_SESSION);
+                    if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true){
+                        echo '
+                        <a class="nav-link pb-0 pt-1 pl-2 logoutbtn" href="./php/logout.php" style="color:rgba(255,255,255,.5);">logout</a>
+                        <p style="color:rgba(255,255,255,.5); padding-top:7px" class = "pb-0 mb-0">Welcome '.$_SESSION["name"].', </p>
+                        ';
+                    }
+                    else{
+                        echo '
+                        <a class="login-signin" href="./login.php">Login</a>
+                        <a class="login-signin mr-3" href="./signup.php">Signup</a>
+                        ';
+                    }
+                ?>
+                <a class="social-icon mr-3" href="#"><img src="./images/facebook.png" alt=""></a>
+                <a class="social-icon mr-3" href="#"><img src="./images/twitter.png" alt=""></a>
+                <a class="social-icon mr-3" href="#"><img src="./images/instagram.png" alt=""></a>
             </div>
             <nav class="navbar navbar-expand-lg navbar-dark pb-4">
 
@@ -58,19 +82,14 @@
                             <a class="nav-link" href="./categories.php">Categories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-icons" href="#"><img class="" src="/images/user.png"
+                            <a class="nav-link nav-icons" href="./account.php"><img class="" src="./images/user.png"
                                     alt=""></a>
-                            <a class="nav-text nav-link ">Account</a>
+                            <a class="nav-text nav-link" href="./account.php">Account</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link nav-icons ml-2" href="./cart.php"><img class=""
-                                    src="/images/shopping-cart.png" alt=""></a>
+                                    src="./images/shopping-cart.png" alt=""></a>
                             <a class="nav-text nav-link" href="./cart.php">Cart</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link nav-icons ml-3" href="#"><img class="" src="/images/wishlist.png"
-                                    alt=""></a>
-                            <a class="nav-text nav-link">Wishlist</a>
                         </li>
                     </ul>
                 </div>

@@ -184,10 +184,10 @@ a:hover {
 }
 
 .products-gird {
-  grid-template-rows: auto auto;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   padding: 15%;
-  display: grid;
   gap: 20px;
   font-size: 1.5em;
 }
@@ -218,7 +218,8 @@ a:hover {
 .product-card {
   align-items: center;
   background-color: #d0dae1;
-  width: 80%;
+  width: min-content;
+  margin: 0 auto;
 }
 
 .product-card img {
@@ -268,10 +269,10 @@ a:hover {
 
 @media (min-width: 1028px) {
   .products-gird {
-    grid-template-columns: auto auto auto auto auto auto;
     padding: 10%;
-    display: grid;
-    justify-content: space-between;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     font-size: 1em;
   }
 
@@ -318,14 +319,6 @@ a:hover {
 @media (max-width : 700px) {
   h2 {
     font-size: 2em !important;
-  }
-
-  .products-gird {
-    grid-template-columns: auto !important;
-  }
-
-  .product-card {
-    margin: auto;
   }
 }
 
@@ -426,328 +419,385 @@ a:hover {
   .login label {
     font-size: 1.4em;
   }
+}
 
-  /*                                                      Product Page                                              */
+/*                                                      Product Page                                              */
+.productPage-grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.product-info {
+  text-align: left;
+}
+
+.add-toWishlist-btn-productPage {
+  color: white;
+  background-color: #de2454;
+  border-radius: 9999px;
+  padding: 2%;
+}
+
+.add-toWishlist-btn-productPage:hover {
+  background-color: #da476c;
+}
+
+.add-toCart-btn-productPage {
+  border-radius: 9999px;
+  padding: 2%;
+}
+
+@media (min-width : 1000px) {
   .productPage-grid {
-    display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .productPage-grid h3 {
+    font-size: 2em !important;
   }
 
-  .product-info {
-    text-align: left;
+  .productPage-grid h6 {
+    font-size: 1.65em;
   }
 
-  .add-toWishlist-btn-productPage {
-    color: white;
-    background-color: #de2454;
-    border-radius: 9999px;
-    padding: 2%;
+  .productPage-grid p {
+    font-size: 1.3em;
   }
 
-  .add-toWishlist-btn-productPage:hover {
-    background-color: #da476c;
+  .productPage-grid label {
+    font-size: 1.4em;
   }
+}
 
-  .add-toCart-btn-productPage {
-    border-radius: 9999px;
-    padding: 2%;
+@media (max-width: 500px) {
+  .productPage-grid img {
+    width: 100%;
   }
+}
 
-  @media (min-width : 1000px) {
-    .productPage-grid {
-      grid-template-columns: auto auto;
-    }
-  }
+/*                                               Cart Page                                                           */
+.cart-products-img {
+  width: 200px;
+  margin-right: 10px;
+}
 
-  @media (max-width: 750px) {
-    .productPage-grid h3 {
-      font-size: 2em !important;
-    }
+.cart-products-info {
+  margin-left: 0px;
+  text-align: left;
+  margin-bottom: 30px;
+}
 
-    .productPage-grid h6 {
-      font-size: 1.65em;
-    }
+.quantity {
+  text-align: center;
+  padding: 1rem;
+  width: 60px;
+  border-radius: 9999px;
+  height: 20px;
+}
 
-    .productPage-grid p {
-      font-size: 1.3em;
-    }
+.plus-btn,
+.minus-btn {
+  height: fit-content;
+}
 
-    .productPage-grid label {
-      font-size: 1.4em;
-    }
-  }
+.plus-btn:hover {
+  border-color: blue;
+}
 
-  @media (max-width: 500px) {
-    .productPage-grid img {
-      width: 100%;
-    }
-  }
+.minus-btn:hover {
+  border-color: red;
+}
 
-  /*                                               Cart Page                                                           */
-  .cart-products-img {
-    width: 200px;
-    margin-right: 10px;
-  }
+.quantity-section {
+  margin-top: 50px;
+}
 
-  .cart-products-info {
-    margin-left: 0px;
-    text-align: left;
-    margin-bottom: 30px;
-  }
+.cart-btns {
+  margin-top: 50px;
+}
 
-  .quantity {
-    text-align: center;
-    padding: 1rem;
-    width: 26%;
-    border-radius: 9999px;
-    height: 20px;
-  }
+.cart-btns button {
+  width: fit-content;
+  font-size: small;
+}
 
-  .plus-btn,
-  .minus-btn {
-    height: fit-content;
-  }
+.remove-btn {
+  margin-right: 10px;
+}
 
-  .plus-btn:hover {
-    border-color: blue;
-  }
+.cart-product-card {
+  display: flex;
+  border: solid #99a4ae 1px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  .minus-btn:hover {
-    border-color: red;
-  }
+.cart-description {
+  display: none;
+}
 
-  .quantity-section {
-    margin-top: 50px;
-  }
+.invoice {
+  height: fit-content;
+  border: #8f8f8f 1px solid;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: left;
+  padding: 5%;
+}
 
-  .cart-btns {
-    margin-top: 50px;
-  }
+.invoice p,
+h5 {
+  font-size: small;
+}
 
-  .cart-btns button {
-    width: fit-content;
-    font-size: small;
-  }
+.note {
+  font-size: smaller !important;
+}
 
-  .remove-btn {
-    margin-right: 10px;
+.cart-price {
+  margin-top: 10px;
+}
+
+.cartPage {
+  flex-wrap: wrap;
+}
+
+.cart-info {
+  width: 100%;
+}
+
+.cart-products {
+  margin: auto;
+}
+
+.cartPage button {
+  width: fit-content;
+  font-size: 1.5em;
+  height: fit-content;
+}
+
+@media (min-width: 1000px) {
+  .cartPage button {
+    font-size: 1em;
   }
 
   .cart-product-card {
-    display: flex;
-    border: solid #99a4ae 1px;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .cartPage {
+    flex-wrap: nowrap;
+  }
+
+  .cart-price {
+    margin-top: 0px;
+  }
+
+  .cart-products-info {
+    margin-left: 25px;
+    margin-bottom: 0;
+  }
+
+  .cart-info {
+    width: 20%;
+  }
+
+  .cart-btns {
+    margin-top: 100px;
+    margin-right: 10px;
+  }
+
+  .quantity-section {
+    margin-top: 60px;
   }
 
   .cart-description {
-    display: none;
-  }
-
-  .invoice {
-    height: fit-content;
-    border: #8f8f8f 1px solid;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    text-align: left;
-    padding: 5%;
+    display: inherit;
   }
 
   .invoice p,
   h5 {
-    font-size: small;
+    font-size: inherit;
+  }
+}
+
+@media (max-width: 750px) {
+  .cartPage h4 {
+    font-size: 2em !important;
   }
 
-  .note {
-    font-size: smaller !important;
+  .cartPage h6,
+  h5 {
+    font-size: 1.65em;
   }
 
-  .cart-price {
-    margin-top: 10px;
+  .cartPage p {
+    font-size: 1.3em;
   }
 
-  .cartPage {
-    flex-wrap: wrap;
+  .cartPage label {
+    font-size: 1.4em;
   }
+}
 
-  .cart-info {
-    width: 100%;
-  }
-
-  .cart-products {
-    margin: auto;
-  }
-
-  .cartPage button {
-    width: fit-content;
-    font-size: 1.5em;
-    height: fit-content;
-  }
-
-  @media (min-width: 1000px) {
-    .cartPage button {
-      font-size: 1em;
-    }
-
-    .cart-product-card {
-      flex-wrap: nowrap;
-    }
-
-    .cartPage {
-      flex-wrap: nowrap;
-    }
-
-    .cart-price {
-      margin-top: 0px;
-    }
-
-    .cart-products-info {
-      margin-left: 25px;
-      margin-bottom: 0;
-    }
-
-    .cart-info {
-      width: 20%;
-    }
-
-    .cart-btns {
-      margin-top: 100px;
-      margin-right: 10px;
-    }
-
-    .quantity-section {
-      margin-top: 60px;
-    }
-
-    .cart-description {
-      display: inherit;
-    }
-
-    .invoice p,
-    h5 {
-      font-size: inherit;
-    }
-  }
-
-  @media (max-width: 750px) {
-    .cartPage h4 {
-      font-size: 2em !important;
-    }
-
-    .cartPage h6,
-    h5 {
-      font-size: 1.65em;
-    }
-
-    .cartPage p {
-      font-size: 1.3em;
-    }
-
-    .cartPage label {
-      font-size: 1.4em;
-    }
-  }
-
-  @media (max-width : 654px) {
-    .cart-product-card {
-      justify-content: center;
-    }
-
-    .cart-products-info {
-      text-align: center !important;
-    }
-
-    .quantity-box {
-      display: block !important;
-    }
-
-    .cart-btns {
-      display: block !important;
-    }
-  }
-
-  /*                                                          Categories Page                                                          */
-  .categories-checkbox {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    border: #85929b solid 0.5px;
-    width: fit-content;
-    padding: 2%;
-    height: fit-content;
-  }
-
-  .categories-container {
+@media (max-width : 654px) {
+  .cart-product-card {
     justify-content: center;
   }
 
-  .categories-checkbox div {
-    display: flex;
-    align-items: baseline;
-    margin-top: 5px;
+  .cart-products-info {
+    text-align: center !important;
   }
 
-  .categories-checkbox label {
-    margin-left: 5px;
+  .quantity-box {
+    display: block !important;
   }
 
-  .category .products-gird {
-    padding: 1%;
-    padding-top: 0;
+  .cart-btns {
+    display: block !important;
   }
+}
+.footer-links{
+  color: whitesmoke !important;
+}
+/*                                                          Categories Page                                                          */
+.categories-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: #85929b solid 0.5px;
+  width: fit-content;
+  padding: 2%;
+  height: fit-content;
+}
+.categories{
+  width: 100% ;
+}
+.categories-container {
+  justify-content: left;
+}
 
-  .category {
-    border-left: #85929b solid 0.5px;
-  }
+.categories-checkbox div {
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+}
 
-  .categories hr {
-    margin: 0;
-  }
+.categories-checkbox label {
+  margin-left: 5px;
+}
 
+.category .products-gird {
+  padding: 1%;
+  padding-top: 0;
+}
+
+.category {
+  border-left: #85929b solid 0.5px;
+}
+
+.categories hr {
+  margin: 0;
+}
+
+input[type=checkbox] {
+  transform: scale(2);
+  margin-right: 5px;
+}
+
+@media (min-width: 1028px) {
   input[type=checkbox] {
-    transform: scale(2);
-    margin-right: 5px;
+    transform: inherit;
+    margin-right: 0;
   }
+}
 
-  @media (min-width: 1028px) {
-    input[type=checkbox] {
-      transform: inherit;
-      margin-right: 0;
-    }
-  }
+/*                                        Accoutn Page                                                                  */
+.securityAndlogin,
+.addressInfo {
+  width: 100%;
+  height: fit-content;
+}
 
-  /*                                        Accoutn Page                                                                  */
-  .securityAndlogin,
-  .addressInfo {
-    width: 100%;
-    height: fit-content;
-  }
+.accountPage {
+  gap: 50px;
+  flex-wrap: wrap;
+}
 
+.accountPage .card-title {
+  font-size: large;
+}
+
+.changeAccountInfo {
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.accountPage button {
+  width: fit-content;
+  font-size: 1.5em;
+  height: fit-content;
+}
+
+.hidden input,
+select {
+  height: 25px;
+}
+
+.accountPage h4 {
+  font-size: 2em !important;
+}
+
+.accountPage h6 {
+  font-size: 1.65em;
+}
+
+.accountPage p {
+  font-size: 1.4em;
+}
+
+.accountPage label {
+  font-size: 1.5em;
+}
+.product-card .card-title{
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 0;
+}
+@media (min-width: 1028px) {
   .accountPage {
-    gap: 50px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
-  .accountPage .card-title {
+  .accountPage label {
+    font-size: 1em;
+  }
+
+  .accountPage p {
     font-size: large;
   }
 
-  .changeAccountInfo {
-    align-items: baseline;
-    justify-content: space-between;
+  .accountPage .card-title {
+    gap: 1%;
+    font-size: larger;
   }
 
   .accountPage button {
-    width: fit-content;
-    font-size: 1.5em;
-    height: fit-content;
+    font-size: 1em;
   }
 
-  .hidden input,
-  select {
-    height: 25px;
+  .hidden input {
+    width: 50%;
   }
 
+  .accountPage h6 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 750px) {
   .accountPage h4 {
     font-size: 2em !important;
   }
@@ -757,59 +807,10 @@ a:hover {
   }
 
   .accountPage p {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
 
   .accountPage label {
-    font-size: 1.5em;
-  }
-
-  @media (min-width: 1028px) {
-    .accountPage {
-      flex-wrap: nowrap;
-    }
-
-    .accountPage label {
-      font-size: 1em;
-    }
-
-    .accountPage p {
-      font-size: large;
-    }
-
-    .accountPage .card-title {
-      gap: 1%;
-      font-size: larger;
-    }
-
-    .accountPage button {
-      font-size: 1em;
-    }
-
-    .hidden input {
-      width: 50%;
-    }
-
-    .accountPage h6 {
-      font-size: 1.3em;
-    }
-  }
-
-  @media (max-width: 750px) {
-    .accountPage h4 {
-      font-size: 2em !important;
-    }
-
-    .accountPage h6 {
-      font-size: 1.65em;
-    }
-
-    .accountPage p {
-      font-size: 1.3em;
-    }
-
-    .accountPage label {
-      font-size: 1.4em;
-    }
+    font-size: 1.4em;
   }
 }

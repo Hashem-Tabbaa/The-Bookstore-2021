@@ -1,11 +1,16 @@
 <?php
-  include("./header.php")
+  session_start();
+  if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] == true){
+      header("location: ./index.php");
+      exit;
+  }
+  include("./header.php");
 ?>
 <div class="login p-5 w-100">
     <div class="w-100">
         <main class="form-signin m-auto w-75">
-            <form>
-                <img src=../images/user-login.png" alt="">
+            <form method="POST" action="./php/register.php">
+                <img src="./images/user-login.png" alt="">
                 <h1 class="h3 mt-3 fw-normal">Create New Account</h1>
                 <div class="first-last-name form-floating mt-3 row pl-3">
                     <div class="first-name">
@@ -20,12 +25,18 @@
                 <div class="form-floating mb-3 mt-3">
                     <label class="font-weight-bold" for="email">*Email address</label>
                     <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email"
-                        required>
+                        required <?php if(isset($_SESSION['uniqueEmail'])) echo'style="border-color:red"';?>>
+                <?php
+                    // var_dump($_SESSION);
+                    if(isset($_SESSION["uniqueEmail"]))
+                        echo'<p>The email is already taken</p>';
+                ?>    
                 </div>
                 <div class="form-floating">
                     <label class="font-weight-bold" for="password">*Password</label>
                     <input type="password" class="form-control" id="password" placeholder="Password" name="password"
                         required>
+                    <p class="passwordLength"></p>
                 </div>
                 <div class="form-floating mt-3">
                     <label class="font-weight-bold" for="passwordAgain">*Password Again</label>
@@ -59,7 +70,7 @@
                 <div class="first-last-name form-floating mt-3 row pl-3">
                     <div class="first-name">
                         <label class="font-weight-bold" for="Place">*Place</label>
-                        <input type="text" class="form-control" id="Place" name="Place" required>
+                        <input type="text" class="form-control" id="Place" name="place" required>
                     </div>
                     <div class="last-name">
                         <label class="font-weight-bold" for="streetName">*Street Name</label>
@@ -74,13 +85,13 @@
                     Up</button>
             </form>
             <h5 class="create-account-text mt-4">Already Have an Account?</h5>
-            <a href="login.html" class="signup-btn w-100 btn btn-lg btn-primary mt-3" type="submit">Login</a>
+            <a href="./login.php" class="signup-btn w-100 btn btn-lg btn-primary mt-3" type="submit">Login</a>
         </main>
 
     </div>
-    <div class="login-image">
+    <!-- <div class="login-image">
         <img src="../images/login-book.png" alt="">
-    </div>
+    </div> -->
 </div>
 <script>
     document.querySelector('#password').addEventListener('keyup', (element)=>{
@@ -93,17 +104,28 @@
             document.querySelector('.checkPassword').innerHTML = "";
             document.querySelector('#signupBtn').disabled = false;
         }
+        if(password.length < 8 && password.length>0){
+            document.querySelector(".passwordLength").innerHTML = "The minimum password length is 8";
+            document.querySelector("#signupBtn").disabled = true;
+        }else {
+            document.querySelector('.passwordLength').innerHTML = "";
+            document.querySelector('#signupBtn').disabled = false;
+        }
     });
     document.querySelector('#passwordAgain').addEventListener('keyup', (element) => {
         var password = document.querySelector('#password').value;
         var passwordAgain = document.querySelector('#passwordAgain').value;
-        if (password !== passwordAgain && passwordAgain.length > 0) {
+        if ((password !== passwordAgain && passwordAgain.length > 0)) {
             document.querySelector('.checkPassword').innerHTML = "*The password is incorrect.";
             document.querySelector('#signupBtn').disabled = true;
-        } else {
+        }
+        else {
             document.querySelector('.checkPassword').innerHTML = "";
             document.querySelector('#signupBtn').disabled = false;
         }
+        if(passwordAgain.length<8){
+            document.querySelector('#signupBtn').disabled = true;
+        } 
     });
     document.querySelector('#phoneNumber').addEventListener('keyup', (element) => {
         var phoneNumber = document.querySelector('#phoneNumber').value;
@@ -128,5 +150,6 @@
     });
 </script>
 <?php
-  include("./footer.php")
+    session_destroy();
+    include("./footer.php")
 ?>
